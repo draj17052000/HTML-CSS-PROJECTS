@@ -1,0 +1,99 @@
+   *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family:Girassol ;
+        
+        text-decoration: none;
+        color: white;
+        font-weight: 200;
+    }
+    body{
+        background: url(ASSETS/BG.png);
+        background-position: center;
+        background-size: 56.25;
+    }
+    .FOR{
+       
+        
+        width: 400PX;
+        height: 400PX;
+        position: relative;
+        bottom: -120PX;
+        left: 500PX;
+         background: transparent;
+        backdrop-filter: BLUR(20PX);
+        border-radius: 30PX;
+        
+    }
+    .LOG{
+        position: relative;
+        font-size: 40px;
+        left: 135px;
+        top: 10px;
+        font-size:40px ; }
+    .user input{
+        width: 280PX;
+        margin-left: 60PX;
+        margin-top: 20PX;
+        background: transparent;
+        border: 2px solid white;
+        padding: 5px;
+        border-radius: 15PX;
+        font-size:18px ;
+        
+    }
+    .ICAN1{
+        position: relative;
+        left: 310PX;
+        bottom: 30PX;
+    }
+    ::placeholder{
+        color: white;
+    }
+    .pass input{
+        width: 280PX;
+        margin-left: 60PX;
+        margin-top: 10PX;
+        background: transparent;
+        border: 2px solid white;
+        padding: 5px;
+        border-radius: 15PX;
+        font-size:18px ;
+    }
+    .ICAN2{
+        position: relative;
+        left: 310PX;
+        bottom: 30PX;
+    }
+    .rem{
+        display: inline-flex;
+        font-size:18px ;
+    }
+    .REMI{
+        position: relative;
+        left: 60PX;
+        
+    
+    }
+    
+    .rem p{
+        position: relative;
+        left: 90PX;
+    }
+    .but button{
+        width: 250px;
+        height: 25PX;
+        color: black;
+        border-radius: 10PX;
+        position: relative;
+        left: 75PX;
+        margin-top: 20PX;
+        font-size:18px ;
+    }
+    .acc{
+        position: relative;
+        left: 90PX;
+        margin-top: 10PX;
+        font-size:18px ;
+    }

@@ -1,0 +1,32 @@
+form{
+    background-color: rgba(255, 153, 0, 0.24);
+    border-radius: 15px;
+    padding: 10px;
+    font-family: Luckiest Guy;
+    
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.EMAIL{
+    margin-left: 36px;
+}
+
+.PHONE{
+    margin-left: 20px;
+}
+.BDAY{
+    margin-right: 50px;
+}
+.QUANTITY{
+    margin-left: 8px;
+}
+.CHOOSE{
+    margin-left: 40px;
+}

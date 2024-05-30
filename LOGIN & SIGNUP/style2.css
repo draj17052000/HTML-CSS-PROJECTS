@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Girassol;
+    font-size: 17px;
+    color: white;
+
+}
+::placeholder{
+    color: white;
+}
+body{
+    background: url(ASSETS/BG.png);
+    background-position: center;
+    background-size: 56.25;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+}
+form{
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    border-radius: 30px;
+    align-items: center;
+    padding:10px;
+    justify-content: space-around;
+}
+.naminga input,.namingb input,.mail input,.password input{
+    width: 300px;
+    height: 40px;
+    background: transparent;
+    border-radius: 50px;
+    padding-left: 10px;
+    border: 2px solid white;
+}
+.content p,a{
+    display: inline-block;
+    font-size: 13px;
+}
+.buttona button{
+    background: transparent;
+    border: 2px solid white;
+    width: 300px;
+    height: 30px;
+    border-radius: 30px;
+}
+.buttonb button{
+    background: transparent;
+    border: 2px solid white;
+    width: 300px;
+    height: 30px;
+    border-radius: 30px;
+}
+.icon i{
+    position: relative;
+    left: 55px;
+    top: 27px;
+}

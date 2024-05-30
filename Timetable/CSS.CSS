@@ -1,0 +1,25 @@
+*{
+   font-family: DPDorkDiary;
+   font-size: 20PX;
+   font-weight: 600;
+   color: white;
+   
+}
+
+body{
+  background: url(ASSETS/Best-Brick-Wallpaper.jpg);
+  background-position: center;
+  background-size: cover;
+}
+table{
+   border: 10px solid rgba(136, 71, 10, 0.973);
+   background-color: black;
+   border-radius: 10PX;
+    
+}
+th,td{
+   border: 1px solid rgb(231, 231, 231);
+   padding: 20px;
+   border-radius: 35px;
+   text-align: center;
+}

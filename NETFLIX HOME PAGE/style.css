@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: rgb(0, 0, 0);
+    color: rgb(253, 253, 253);
+}
+.HEADER{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(RGBA(0,0,0,0.7),RGBA(0,0,0,0.7)),url(ASSETS/header-image.png);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.LOGO img{
+    width: 150px;
+    cursor: pointer;
+    position: relative;
+    top: 15px;
+    left: 52px;
+}
+.language{
+    display: inline-flex;
+    position: relative;
+    top: 10px;
+    left: 320px;
+    border: 1px solid rgb(104, 89, 89);
+    border-radius: 4px;
+    background: RGBA(0,0,0,0.4);
+    padding: 5PX 6px 5px 15px;
+}
+.language select{
+    width: 100px;
+    border: none;
+    background: transparent;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+
+}
+.SIGNIN{
+    width: 90PX;
+    height: 35px;
+    background-color: red;
+    padding: 10px 10px 10px 10px;
+    border-radius: 4PX;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    right: 90px;
+
+}
+.SIGNIN p{
+    color: white;
+    font-weight: 600;
+}
+.headercontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 230px;
+}
+.headercontent h1{
+    font-size: 60px;
+    font-weight: 20;
+    font-family: Passion One;
+    word-spacing:8px;
+}
+.headercontent h3{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.headercontent p{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+.inputa input{
+    background:RGBA(0,0,0,0.5);
+    border: 1px solid grey;
+    width: 370px;
+    height: 55px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+::placeholder{color: rgb(173, 168, 168);
+    font-size: 15px;
+font-weight: 700;
+}
+.container{
+    padding-left: 10px;
+}
+.inputa p{
+    width: 200px;
+    height: 55px;
+    background-color: red;
+    font-weight: 500;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+.inputa{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.container img{
+    position: relative;
+    left: 160px;
+    bottom: 39px;
+    width:20px;
+}
+
+.feautures{
+
+    background-color: black;
+}
+.rowa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+}
+.content{
+    flex-basis: 40%;
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 20;
+    font-family: Passion One;
+}
+.content h4{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+hr{
+    border-bottom:  solid 10px rgb(49, 45, 45);
+}
+.rowb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh; 
+}
+.rowc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh; 
+}
+.rowc img{
+    width:550px ;
+    height: 450x;
+}
+.rowd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh; 
+}
+.faq{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    margin: 60px auto;
+    max-width: 750px;
+
+}
+.faq h2{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 20;
+    font-family: Passion One;
+    padding-top: 10px;
+}
+.faq li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.faq li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 900;
+    font-size: 18px;
+    font-family: Roboto;
+    background: #303030;
+}
+label::after{
+    content:'+';
+    font-size: 30px;
+    position:absolute;
+    right: 400px;
+}
+input[type='radio']{
+    display: none;
+}
+.faq .wording{
+    background-color: #303030;
+    text-align: left;
+    padding: 0px 20px;
+    max-height: 0;
+    overflow: hidden;
+}
+.faq input[type='radio']:checked + label + .wording{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.pb{
+    position: relative;
+    font-family: Roboto;
+    font-size: 20px;
+    left: 80px;
+    top: 70px;
+}
+.help{
+    position: relative;
+    left: 475px;
+    bottom: 100px;
+}
